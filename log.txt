@@ -2,3 +2,7 @@ git clone url
 git init
 git branch pranava_jain
 touch log.txt
+git add log.txt
+git commit
+git branch question
+git branch explanation
