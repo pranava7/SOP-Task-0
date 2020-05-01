@@ -5,4 +5,19 @@ touch log.txt
 git add log.txt
 git commit
 git branch question
+    touch question.txt
+    git add .
+    git commit
 git branch explanation
+    git checkout explanation
+    touch explanation.txt
+    git add .
+    git commit
+git checkout pranava_jain
+git merge question
+git merge explanation
+git mv log.txt pranava_jain.txt
+git push --set-upstream origin pranava_jain
+
+
+
